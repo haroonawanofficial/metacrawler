@@ -35,13 +35,6 @@ A comprehensive Python tool for extracting secrets, metadata, and sensitive data
 
 ## 📦 Installation
 
-### Basic Installation
-```bash
-git clone https://github.com/yourusername/mega-sentinel.git
-cd mega-sentinel
-pip install -r requirements.txt
-```
-
 ### Full Installation (Recommended)
 ```bash
 pip install aiohttp beautifulsoup4 PyPDF2 Pillow exifread olefile python-magic
@@ -51,17 +44,17 @@ pip install aiohttp beautifulsoup4 PyPDF2 Pillow exifread olefile python-magic
 
 ### Analyze a Single File
 ```bash
-python mega_sentinel.py -f document.pdf
+python metacrawler.py -f document.pdf
 ```
 
 ### Crawl a Website
 ```bash
-python mega_sentinel.py -u https://example.com --crawl
+python metacrawler.py -u https://example.com --crawl
 ```
 
 ### Analyze Multiple Files
 ```bash
-python mega_sentinel.py -f file1.pdf -f file2.docx -f image.jpg
+python metacrawler.py -f file1.pdf -f file2.docx -f image.jpg
 ```
 
 ### Analyze Local Directory
@@ -223,9 +216,6 @@ pip install PyPDF2 Pillow exifread olefile python-magic
 - Adjust `--crawl-depth` based on target size
 - Process files in batches for memory efficiency
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ### Adding New Patterns
 Edit the `ComprehensivePatternEngine` class to add new detection patterns:
@@ -245,7 +235,7 @@ async def _parse_new_format(self, content: bytes) -> Dict[str, Any]:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## ⚠️ Disclaimer
 
@@ -254,31 +244,12 @@ This tool is designed for:
 - Educational purposes
 - Authorized security assessments
 
-**Use responsibly and only on systems you own or have explicit permission to test.**
-
-## 🆘 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/mega-sentinel/issues)
-- **Documentation**: [Wiki](https://github.com/yourusername/mega-sentinel/wiki)
-- **Email**: security@yourdomain.com
 
 ---
 
 <div align="center">
 
-**MEGA-SENTINEL** - Your universal sentinel for sensitive data protection 🔒
+**Meta Crawler **
 
 </div>
 ```
-
-This README provides comprehensive documentation with:
-- Clear installation and usage instructions
-- Feature overview with emoji icons
-- Multiple usage examples
-- Advanced configuration options
-- Technical specifications
-- Security considerations
-- Troubleshooting guide
-- Contribution guidelines
-
-The format is optimized for GitHub with proper badges, code blocks, and organized sections for easy navigation.
