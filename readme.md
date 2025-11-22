@@ -59,38 +59,38 @@ python metacrawler.py -f file1.pdf -f file2.docx -f image.jpg
 
 ### Analyze Local Directory
 ```bash
-python mega_sentinel.py -d ./documents
+python metacrawler.py -d ./documents
 ```
 
 ### Advanced Usage
 ```bash
 # Crawl with depth limit and save results
-python mega_sentinel.py -u https://example.com --crawl --crawl-depth 3 -o results.json
+python metacrawler.py -u https://example.com --crawl --crawl-depth 3 -o results.json
 
 # Analyze from target list file
-python mega_sentinel.py -l targets.txt --max-files 50
+python metacrawler.py -l targets.txt --max-files 50
 ```
 
 ## 📋 Usage Examples
 
 ### Basic File Analysis
 ```bash
-python mega_sentinel.py -f sensitive_document.pdf
+python metacrawler.py -f sensitive_document.pdf
 ```
 
 ### Comprehensive Website Audit
 ```bash
-python mega_sentinel.py -u https://target-site.com --crawl --crawl-depth 2 -o website_audit.json
+python metacrawler.py -u https://target-site.com --crawl --crawl-depth 2 -o website_audit.json
 ```
 
 ### Batch Directory Processing
 ```bash
-python mega_sentinel.py -d ./project_files --max-files 200 -o project_scan.json
+python metacrawler.py -d ./project_files --max-files 200 -o project_scan.json
 ```
 
 ### Multiple Target Types
 ```bash
-python mega_sentinel.py -u https://api.example.com -f config.json -d ./src --crawl
+python metacrawler.py -u https://api.example.com -f config.json -d ./src --crawl
 ```
 
 ## 🔧 Advanced Options
