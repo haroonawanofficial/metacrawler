@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MEGA-SENTINEL: Universal Sensitive Data Extraction Platform
+META-CRWALER: Universal Sensitive Data Extraction Platform
 A comprehensive tool for extracting secrets, metadata, and sensitive data from ALL file types.
 Supports: JavaScript, PDF, Office Documents, Images, Archives, Text Files, and more.
 """
@@ -1166,7 +1166,7 @@ async def main():
     cli = MegaSentinelCLI()
     
     parser = argparse.ArgumentParser(
-        description='MEGA-SENTINEL: Universal Sensitive Data Extraction Platform',
+        description='META-CRWALER: Universal Sensitive Data Extraction Platform',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog='''
 Examples:
@@ -1268,7 +1268,7 @@ if __name__ == '__main__':
     if not OFFICE_SUPPORT:
         print("Note: Install olefile for Office document support: pip install olefile")
     
-    print("🚀 MEGA-SENTINEL: Universal Sensitive Data Extraction")
+    print("🚀 META-CRWALER: Universal Sensitive Data Extraction")
     print("=" * 60)
     
     # Run the application
