@@ -1,4 +1,3 @@
-```markdown
 # 🚀 MetaCrawler: Universal Sensitive Data Extraction Platform
 
 A comprehensive Python tool for extracting secrets, metadata, and sensitive data from **ALL file types**. Designed for security researchers, penetration testers, and developers to identify exposed sensitive information.
