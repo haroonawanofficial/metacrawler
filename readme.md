@@ -243,14 +243,3 @@ This project is licensed under the MIT License.
 This tool is designed for:
 - Security research and penetration testing
 - Educational purposes
-- Authorized security assessments
-
-
----
-
-<div align="center">
-
-**Meta Crawler **
-
-</div>
-```
